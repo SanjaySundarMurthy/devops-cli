@@ -7,11 +7,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var (
-	genType   string
-	genOutput string
-)
-
 var generateCmd = &cobra.Command{
 	Use:   "generate",
 	Short: "Generate boilerplate configs (Dockerfiles, CI pipelines, K8s manifests)",
