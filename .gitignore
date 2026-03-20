@@ -1,0 +1,21 @@
+# Binaries
+/dops
+/dops-*
+*.exe
+
+# Go
+vendor/
+*.test
+coverage.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
